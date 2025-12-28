@@ -1,0 +1,156 @@
+/* =========================
+   Global styles
+========================= */
+
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+/* =========================
+   Navbar
+========================= */
+
+.navbar-brand {
+  letter-spacing: 0.3px;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: #0d6efd !important;
+}
+
+/* =========================
+   Hero / Carousel
+========================= */
+
+.hero-item {
+  position: relative;
+}
+
+.hero-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Hero background images (use gradients for now) */
+.hero-1 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    linear-gradient(135deg, #0d6efd, #6610f2);
+}
+
+.hero-2 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    linear-gradient(135deg, #20c997, #198754);
+}
+
+.hero-3 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    linear-gradient(135deg, #fd7e14, #dc3545);
+}
+
+.carousel-caption {
+  bottom: 20%;
+}
+
+.carousel-caption h1 {
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* =========================
+   Cards & Hover Effects
+========================= */
+
+.hover-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   Features Section
+========================= */
+
+#features h2 {
+  font-weight: 600;
+}
+
+/* =========================
+   Tabs
+========================= */
+
+.nav-tabs .nav-link {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #ffffff;
+  border-color: #dee2e6 #dee2e6 #ffffff;
+}
+
+/* =========================
+   Forms
+========================= */
+
+.form-control.is-valid {
+  border-color: #198754;
+}
+
+.form-control.is-invalid {
+  border-color: #dc3545;
+}
+
+.form-text {
+  font-size: 0.85rem;
+}
+
+/* =========================
+   Modal
+========================= */
+
+.modal-content {
+  border-radius: 0.75rem;
+}
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+  background-color: #f8f9fa;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Utility Enhancements
+========================= */
+
+.shadow-sm {
+  transition: box-shadow 0.25s ease;
+}
+
+.shadow-sm:hover {
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+}
